@@ -6,9 +6,9 @@ export function tweenMe(node: any) {
 	});
 	const duration = 5;
 
-	tl.from(node, {
+	tl.to(node, {
 		duration,
-		opacity: 0
+		opacity: 1
 	}).from(
 		node,
 		{

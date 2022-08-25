@@ -9,7 +9,6 @@
 <main
 	class="flex-1 bg-base-100 w-10 h-[calc(100vh-50px)] max-h-screen overflow-y-auto"
 	on:click={() => {
-		$toogleAside = false;
 		$toogleNavbar = false;
 		$showNavbar = false;
 	}}
@@ -41,7 +40,7 @@
 		on:click={() => {
 			$showNavbar = false;
 			$toogleNavbar = false;
-			$toogleAside = true;
+			$toogleAside = false;
 			toogleButton = false;
 		}}
 	>

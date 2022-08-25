@@ -135,6 +135,7 @@ const initialData: ElementTypes[] = [
 
 export const elementDataStore = proxy<ElementTypes[]>(initialData);
 export const elementIdStore = writable<any>('');
+export const elementOnHover = writable<any>('');
 
 export const getElementById = (elementId: any) => {
 	let resultElement: ElementTypes = {};

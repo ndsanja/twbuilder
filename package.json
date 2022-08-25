@@ -28,6 +28,7 @@
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
+		"svelte-dnd-action": "^0.9.19",
 		"svelte-preprocess": "^4.10.7",
 		"sveltio": "^1.0.8",
 		"tailwindcss": "^3.1.8",
@@ -37,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.24.0"
+		"daisyui": "^2.24.0",
+		"gsap": "^3.11.0"
 	}
 }

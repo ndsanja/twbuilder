@@ -16,7 +16,7 @@
 		data?.styles?.size
 	} ${data?.styles?.position} ${data?.styles?.typography} ${data?.styles?.backgrounds} ${
 		data?.styles?.borders
-	} ${data?.styles?.effects} ${
+	} ${data?.styles?.effects} opacity-0 ${
 		$elementOnHover === data?.id && 'relative hover:ring hover:ring-green-500 hover:ring-offset-1'
 	} ${
 		$elementIdStore === data?.id &&
